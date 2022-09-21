@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".EmployersCreate">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/homeback"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:elevation="50dp"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/companyName"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:background="@drawable/homeback"
+        android:elevation="100dp"
+        android:hint="@string/enter_company_name"
+        android:textColorHint="@color/hint"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/Stream"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:background="@drawable/homeback"
+        android:elevation="100dp"
+        android:hint="@string/enter_stream"
+        android:textColorHint="@color/hint"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/location"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:background="@drawable/homeback"
+            android:elevation="100dp"
+            android:hint="@string/job_location"
+            android:textColorHint="@color/hint"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:importantForAutofill="no" />
+
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:background="@drawable/homeback"
+        android:elevation="100dp"
+        android:hint="@string/enter_job_type"
+        android:textColorHint="@color/hint"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:background="@drawable/homeback"
+        android:elevation="100dp"
+        android:inputType="number"
+        android:hint="@string/enter_salary"
+        android:textColorHint="@color/hint"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:importantForAutofill="no" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_jobs"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alice"
+        android:layout_margin="20dp"
+        android:minWidth="150dp"
+        android:padding="10dp"
+        android:background="@drawable/homeback"
+        android:elevation="100dp"
+        android:backgroundTint="@color/teal_200"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIntern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_internship"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alice"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:minWidth="150dp"
+        android:padding="10dp"
+        android:background="@drawable/homeback"
+        android:elevation="100dp"
+        android:backgroundTint="@color/teal_200"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

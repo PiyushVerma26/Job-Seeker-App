@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.createJobFragment">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/note"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:lineHeight="20dp"
+        android:text="@string/employers"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_the_passcode"
+        android:minHeight="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/black_ops_one"
+        android:letterSpacing="0.05"
+        android:background="@drawable/homeback"
+        android:layout_margin="15dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

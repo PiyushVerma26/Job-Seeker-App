@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:menuCategory="secondary"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/search"
+            android:menuCategory="secondary"
+            android:icon="@drawable/search"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/internship"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:menuCategory="secondary"
+            android:title="@string/internship" />
+        <item
+            android:id="@+id/jobs"
+            android:icon="@drawable/jobs"
+            android:menuCategory="secondary"
+            android:title="@string/jobs" />
+        <item
+            android:id="@+id/about"
+            android:menuCategory="secondary"
+            android:icon="@drawable/info"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/create"
+            android:menuCategory="secondary"
+            android:icon="@drawable/create"
+            android:title="@string/create_a_new_job" />
+    </group>
+</menu>

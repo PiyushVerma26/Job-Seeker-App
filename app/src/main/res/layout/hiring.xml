@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:elevation="50dp"
+    android:padding="10dp"
+    android:layout_margin="20dp"
+    android:minWidth="120dp"
+    app:cardCornerRadius="15dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/hiring_image"
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/nav_header_desc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/job"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            tools:ignore="ImageContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:text="@string/company_name"
+            android:textColor="@color/black"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-10dp"
+            android:fontFamily="@font/alice"
+            android:padding="10dp"
+            android:text="@string/employee_name"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="-15dp"
+           android:layout_marginBottom="10dp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/salary"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:padding="10dp"
+               android:text="@string/salary"
+               android:textColor="@color/black"
+               android:textSize="14sp" />
+           <TextView
+               android:id="@+id/year"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textStyle="italic"
+               android:padding="10dp"
+               android:text="@string/hiring_year"
+               android:layout_weight="1"
+               android:textColor="@color/black"
+               android:textSize="14sp" />
+       </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/homeback"
+    android:elevation="50dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android_development"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/averia_libre_light"
+        android:id="@+id/stream"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/android_development"
+        android:textColor="@color/hint"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+       android:textStyle="normal"
+        android:id="@+id/company"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/work_from_home"
+        android:textColor="@color/hint"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:id="@+id/workType"/>
+
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginStart="10dp"
+       android:layout_marginEnd="10dp"
+       android:layout_marginTop="5dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/stipned"
+           android:fontFamily="@font/averia_libre_light"
+           android:textColor="@color/black"
+           android:textSize="14sp"
+           android:textStyle="normal"
+           android:id="@+id/salary"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/sign"
+           android:fontFamily="@font/averia_libre_light"
+           android:textColor="@color/black"
+           android:textSize="14sp"
+           android:textStyle="normal"
+           android:id="@+id/sign"/>
+       <TextView
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/_10k"
+           android:fontFamily="@font/averia_libre_light"
+           android:textColor="@color/black"
+           android:textSize="14sp"
+           android:textStyle="normal"
+           android:id="@+id/salaryAmount"/>
+
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/job_location"
+        android:textColor="@color/hint"
+        android:layout_marginTop="3dp"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/location"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

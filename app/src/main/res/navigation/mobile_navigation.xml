@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="hello.tech.jobseeker.Fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+    <action
+        android:id="@+id/action_home_to_search"
+        app:destination="@id/search" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/search"
+        android:name="hello.tech.jobseeker.Fragments.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" >
+    <action
+        android:id="@+id/action_search_to_intern"
+        app:destination="@id/internship" />
+    </fragment>
+    <fragment
+        android:id="@+id/about"
+        android:name="hello.tech.jobseeker.Fragments.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_about_to_create"
+            app:destination="@id/create" />
+    </fragment>
+    <fragment
+        android:id="@+id/internship"
+        android:name="hello.tech.jobseeker.Fragments.InternshipFragment"
+        android:label="@string/internship"
+        tools:layout="@layout/fragment_internship" >
+        <action
+            android:id="@+id/action_internship_to_jobs"
+            app:destination="@id/jobs" />
+    </fragment>
+    <fragment
+    android:id="@+id/jobs"
+    android:name="hello.tech.jobseeker.Fragments.JobsFragment"
+    android:label="@string/jobs"
+    tools:layout="@layout/fragment_jobs" >
+    <action
+        android:id="@+id/action_jobs_to_about"
+        app:destination="@id/about" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/create"
+        android:name="hello.tech.jobseeker.Fragments.createJobFragment"
+        android:label="Employer Section"
+        tools:layout="@layout/fragment_create_job" />
+
+</navigation>

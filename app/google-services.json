@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226325438229",
+    "project_id": "job-seeker-80586",
+    "storage_bucket": "job-seeker-80586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226325438229:android:e5517cf15053143abd531c",
+        "android_client_info": {
+          "package_name": "hello.tech.jobseeker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226325438229-bk4lvcvrvb4pqut2j9j5gtor4hemhg1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZM0qWGFulw7HyAxyJcswou-bXSE4xy1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226325438229-bk4lvcvrvb4pqut2j9j5gtor4hemhg1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
